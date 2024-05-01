@@ -1,12 +1,11 @@
-import express, { Request, Response } from "express";
+import express from "express";
+import scrapeRouter from "./routes/scrape";
 
 const app = express();
 
-const PORT = 3000;
+app.use('/api/scrape', scrapeRouter);
 
-app.get('/api/search', (request: Request, response: Response, next) => {
-    response.send([])
-})
+const PORT = 3000;
 
 app.listen(PORT, () => {
     console.log(`Running on port ${PORT}`);
