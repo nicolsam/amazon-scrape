@@ -1,10 +1,3 @@
-export interface Response {
-    title: string;
-    image: string;
-    customerReviews: customerReview[];
-}
+import { Quote } from './quote';
 
-interface customerReview {
-    count: number;
-    starRating: string;
-}
+export type QuoteResponse = Quote[];
