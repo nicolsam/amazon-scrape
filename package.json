@@ -1,7 +1,7 @@
 {
-  "name": "amazon-scrape",
+  "name": "quote-scrape",
   "version": "1.0.0",
-  "description": "Objective: Create a simple script to scrape Amazon product listings from the first page of search results for a given keyword.",
+  "description": "Create a simple script to scrape quote listings from the first page",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "start": "node ./dist/index.js",
     "start:dev": "nodemon ./src/index.ts"
   },
-  "author": "",
+  "author": "Nícolas Samuel",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.8",
@@ -18,6 +18,7 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
+    "@types/jsdom": "^21.1.6",
     "@types/node": "^20.12.7",
     "nodemon": "^3.1.0",
     "ts-node": "^10.9.2",
