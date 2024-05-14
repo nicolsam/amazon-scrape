@@ -67,8 +67,10 @@ Endpoint **/api/scrape**
     - JSDOM
 
 ### Links
+
 - [Project code](https://github.com/nicolsam/web-scrape-node)
+- [Live Site](https://web-scrape-node-yulc.vercel.app/api/scrape)
 
 ## Author
 
-- Linkedin - [@nicolveras](https://www.linkedin.com/in/nicolas-samuel-veras/)
+- Linkedin - [Nícolas Samuel](https://www.linkedin.com/in/nicolas-samuel-veras/)
