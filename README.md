@@ -5,10 +5,10 @@ A simple script to scrape the first page of Quotes to Scrape website.
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
+    - [Quotes to Scrape Elements](#quotes-to-scrape-elements)
+  - [API Response](#api-response)
+- [Non-functional Requirements](#non-functional-requiments)
+- [Links](#links)
 - [Author](#author)
 
 ## Overview
@@ -38,6 +38,25 @@ The cleaner and more functional the code is, the better.
     - (.author)
 - Tags
     - (.tag)
+
+### API Responsse
+
+Endpoint **/api/scrape**
+
+```json
+[
+  {
+    "quote": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”",
+    "author": "Albert Einstein",
+    "tags": [
+      "change",
+      "deep-thoughts",
+      "thinking",
+      "world"
+    ]
+  },
+]
+```
 
 ## Non-functional Requirements
 
